@@ -1,4 +1,4 @@
-#Landing page til 1-dags brogbyg
+# Landing page til 1-dags brogbyg
 Det er hensigten at siden kan bruges både som erstatning for en powerppoint men også som opgave hæfte og CTA til eleverne da siden er tilgængelig gennem pages.  
 Dette betyder også at eleverne faktisk kan gennemfører opgaverne fra mobilen i ekstreme tilfælde men som minimum bruge denne til at have overblik og praktisk informaton og skridt i opgaveløsningen
 
