@@ -48,5 +48,7 @@
     .landing{
         grid: auto / auto;
     }
-  
+    .landing section:first-of-type{
+        display: none;
+    }
 }
