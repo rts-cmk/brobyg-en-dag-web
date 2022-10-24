@@ -1,0 +1,11 @@
+:root{
+    --color-base: rgb(148, 167, 171) ;
+    --color-accent: rgb(70, 118, 130) ;
+    --color-dark: rgb(45, 45, 33);
+    --color-light: rgb(224, 224, 224);
+
+    --font-base: 'Source Code Pro', monospace;
+    --font-accent: 'Montserrat', sans-serif;
+
+    --border: 0.1rem solid var(--color-dark);
+}

@@ -1,0 +1,48 @@
+.utility{
+
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+
+    margin-bottom: 5rem;
+    padding: 4rem 3rem 4rem 3rem;;
+
+}
+
+.utility h2{
+    width: 100%;
+}
+
+.schedule{ 
+    flex: 1 0 50%;
+
+    font-size: 1.3em;
+    border-top: var(--border);
+    border-bottom: var(--border);
+}
+.schedule li{
+    padding:0.5rem;
+    color: var(--color-base)
+}
+.schedule li:nth-of-type(odd){
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-weight: 600;
+    
+}
+
+.facility{
+    flex: 1 1 40%;
+
+    font-size: 1.3em;
+}
+.facility li{
+    padding:1em;
+    color: var(--color-base)
+}
+.facility li::first-letter{
+    font-size: 1.3em;
+    font-weight: 600;
+   
+}

@@ -1,0 +1,54 @@
+body{
+    background: var(--color-light);
+
+    font-family: var(--font-base);
+    font-size: 0.8rem;
+    color: var(--color-dark);
+
+}
+
+header{
+    
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+dt{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+dd{
+    margin-bottom: 0.5rem;
+}
+
+h2, h3{
+    font-family: var(--font-accent);
+    font-size: clamp(1.7em, 2vw, 3em);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+a:hover{
+    color: var(--color-base);
+}
+
+.quote{
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--color-accent);
+
+}
+
+.invert{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}

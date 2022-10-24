@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,100&family=Source+Code+Pro:ital,wght@0,200;0,400;0,900;1,200;1,400&display=swap');
+
+@import url('variables.css');
+@import url('layout.css');
+@import url('base.css');
+
+@import url('landing.css');
+@import url('process.css');
+@import url('topmenu.css');
+@import url('code.css');
+@import url('action.css');
+@import url('ultility.css');
+@import url('frontend.css');
+@import url('assignment.css');
+@import url('some.css');
+

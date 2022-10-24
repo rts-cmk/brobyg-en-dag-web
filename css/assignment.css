@@ -1,0 +1,49 @@
+.assignment{
+    padding: 5rem 3rem 5rem 3rem;
+    background-color: var(--color-base);
+}
+
+.assignment section{
+    background-color: var(--color-light);
+    padding: 2rem;
+
+    
+}
+
+.assignment ol{
+    margin-left: 3rem;
+}
+
+.assignment ol li{
+    padding-bottom: 1rem;
+    font-size: 1.2em;
+    
+}
+.assignment ul li{
+    padding-bottom: 0.1rem;
+}
+
+.assignment p{
+    color: var(--color-accent);
+    
+}
+
+.assignment span{
+    color:rgb(215, 149, 125);
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    background-color: var(--color-dark);
+    border-radius: 0.2rem;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+@media screen and (max-width:600px){
+    .assignment{
+        padding: 5rem 1rem 5rem 1rem;
+    }
+    
+}

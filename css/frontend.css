@@ -1,0 +1,48 @@
+.frontend{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 1.3em;
+
+    padding: 5rem 3rem 5rem 3rem;
+
+}
+
+.frontend h2{
+    width: 100%;
+}
+.frontend h3{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.frontend section{
+    flex: 1 0 30%;
+
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    border: var(--border);
+    border-radius: 0.2rem;
+
+    padding:1rem;
+
+    box-shadow: 5px 5px var(--color-dark);
+}
+
+.frontend a{
+    color: var(--color-accent);
+}
+.frontend a:hover{
+    color: var(--color-base);
+}
+
+@media screen and (max-width: 600px) {
+    .frontend section{
+        flex: 1 0 100%;
+    }
+
+   .frontend{
+    padding: 5rem 1rem 5rem 1rem;
+   }
+}

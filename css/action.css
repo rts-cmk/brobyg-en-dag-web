@@ -1,0 +1,42 @@
+.action{
+    align-items: center;
+    justify-content: center;
+    gap:2.5rem;
+
+    color: var(--color-dark);
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 1.5em);
+
+    width: 100%;
+    padding: 1rem;
+    background: var(--color-base);
+
+
+}
+
+.action p{
+    width: 55%;
+}
+
+.action a{
+
+    padding: 0.5em;
+
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-weight: 600;
+    font-family: var(--font-accent);
+    color: var(--color-dark);
+
+    background-color: var(--color-light);
+
+    border-radius: 0.2rem;
+
+    box-shadow: 5px 5px var(--color-dark);
+}
+
+.action a:hover{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    box-shadow:0 0 var(--color-base);
+}
+
