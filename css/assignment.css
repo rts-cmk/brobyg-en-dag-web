@@ -17,10 +17,15 @@
 .assignment ol li{
     padding-bottom: 1rem;
     font-size: 1.2em;
+
+    overflow-wrap: anywhere;
+   
     
 }
 .assignment ul li{
     padding-bottom: 0.1rem;
+   
+   
 }
 
 .assignment p{

@@ -28,6 +28,7 @@
     padding:1rem;
 
     box-shadow: 5px 5px var(--color-dark);
+    overflow-wrap: break-word;
 }
 
 .frontend a{
