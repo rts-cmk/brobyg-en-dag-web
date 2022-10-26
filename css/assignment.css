@@ -30,7 +30,6 @@
 
 .assignment p{
     color: var(--color-accent);
-    
 }
 
 .assignment span{
@@ -46,9 +45,76 @@
     user-select: none;
     
 }
+.assignment div{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 2em;
+
+    gap: 2rem;
+}
+.assignment div button{
+    justify-self: center;
+    align-self: end;
+    width: fit-content;
+    padding: 0.5em;
+
+    font-size: clamp(1rem, 1vw, 2rem);
+    font-weight: 600;
+    font-family: var(--font-accent);
+    color: var(--color-dark);
+
+    background-color: var(--color-light);
+
+    border-radius: 0.2rem;
+
+    box-shadow: 5px 5px var(--color-dark);
+
+}
+.assignment div button:hover{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    box-shadow:0 0 var(--color-base);
+}
+
+.hoverimg{
+    flex-direction: column;
+
+    height: fit-content;
+    max-width: fit-content;
+
+    border: 0.2rem solid var(--color-dark);
+    border-radius: 0.2rem;
+
+    background-color: var(--color-light);
+    padding: 2rem;
+
+    box-shadow: 5px 5px var(--color-dark);
+
+    position:fixed;
+    top: 9vh;
+    left: 30%;
+    z-index:10;
+}
+
+.hoverimg img{
+    height: 70vh;
+    object-fit: contain;
+
+    border: 0.2rem solid var(--color-dark);
+    border-radius: 0.2rem;
+}
+    
+
 @media screen and (max-width:600px){
     .assignment{
         padding: 5rem 1rem 5rem 1rem;
+    }
+
+    .hoverimg{
+        width:100%;
+        left:0;
     }
     
 }

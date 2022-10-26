@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="css/style.css" >
     <script src="https://kit.fontawesome.com/215b90b29c.js" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js" defer></script>
 
 </head>
 <body>
@@ -138,7 +140,8 @@
                     style="border: 2"
                     allowfullscreen="" 
                     loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerpolicy="no-referrer-when-downgrade"
+                >
                 </iframe>
 
             </section>
@@ -175,10 +178,20 @@
                 </section>
 
             </section>
-
+            
             <section class="code" aria-label="kodesprogene">
 
-                <p class="codepen" data-height="400" data-theme-id="light" data-default-tab="html,result" data-slug-hash="dyexXMr" data-editable="true" data-user="akalaws" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <p 
+                class="codepen" 
+                data-height="400" 
+                data-theme-id="light" 
+                data-default-tab="html,result" 
+                data-slug-hash="dyexXMr" 
+                data-editable="true" 
+                data-user="akalaws" 
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                >
+                
                     <span>
                         See the Pen 
                         <a href="https://codepen.io/akalaws/pen/dyexXMr">
@@ -188,13 +201,32 @@
                             on <a href="https://codepen.io">CodePen</a>.
                     </span>
                 </p>
-                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                
 
             </section>
                 
             <section class="assignment frontend" aria-label="opgaven" id="opgaver">
                 <h2>Opgave beskrivelse</h2>
+                <div>
+                    <p>
+                        Du skal lave et digitalt visitkort som du kan sende ud til folk og som linker videre til dine sociale media. Du skal dog ikke gøre dette uden hjælp. 
+                        Så følg instruktionerne nedenfor - og bliv ikke bekymret over at det ser lidt kedeligt ud til starten. Når opgaverne er færdig får du links og værktøjer
+                        til hvordan du kan customize og tilføje endnu mere lir og gøre visitkortet til dit eget.
+                    </p>
+                    <p>
+                        Det kan dog hjælpe at have en ide om hvordan det færdige design bør se ud - ish. Så vil du se hvad det er du nogenlunde skal ramme kan du trykke på knappen nedenfor.
+                    </p>
+                    <button name="pop" onclick="showImg()">
+                        Se eksempel på resultatet
+                    </button>
 
+                    <div class="hoverimg" style="display:none">
+                        <img src="images/sample.PNG" loading="lazy">
+                        <button name="close" onclick="closeImg()"> Luk billedet</button>
+                    </div>
+                    
+                </div>
+               
                 <section aria-label="opgave 1">
                     <h3>#1 opret en bruger & pen på CodePen</h3>
                     <p>
@@ -297,7 +329,7 @@
                     </p>
                     <ol>
                         <li>
-                            inde i <span>&lt;section class="icons"&gt;&lt;/section&gt;</span> skal du lave en ny linje og tilføje følgende kode '&lt;script src="https://kit.fontawesome.com/215b90b29c.js" crossorigin="anonymous"&gt;&lt;/script&gt;'
+                            inde i <span>&lt;section class="icons"&gt;&lt;/section&gt;</span> skal du lave en ny linje og tilføje følgende kode <sspan style="color:rgb(220, 106, 65)">&lt;script src="https://kit.fontawesome.com/215b90b29c.js" crossorigin="anonymous"&gt;&lt;/script&gt;</sspan>
                         </li>
                         <li>
                             Herefter skal du gå ind på <a href="https://fontawesome.com/search?o=r&m=free"> Fontawesome</a> og søge på de ikoner du skal bruge, f.eks. "instagram".
