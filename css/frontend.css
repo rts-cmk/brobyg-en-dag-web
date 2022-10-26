@@ -8,6 +8,7 @@
 
 }
 
+
 .frontend h2{
     width: 100%;
 }
@@ -25,7 +26,7 @@
     border: var(--border);
     border-radius: 0.2rem;
 
-    padding:1rem;
+    padding:1.1rem;
 
     box-shadow: 5px 5px var(--color-dark);
     overflow-wrap: break-word;
@@ -33,6 +34,7 @@
 
 .frontend a{
     color: var(--color-accent);
+    font-weight: 600;
 }
 .frontend a:hover{
     color: var(--color-base);
