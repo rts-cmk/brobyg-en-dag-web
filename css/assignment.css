@@ -16,7 +16,7 @@
 
 .assignment ol li{
     padding-bottom: 1rem;
-    font-size: 1.2em;
+    font-size: 1rem;
 
     overflow-wrap: anywhere;
    
@@ -34,7 +34,7 @@
 
 .assignment span{
     color:rgb(215, 149, 125);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 0.2rem;
     background-color: var(--color-dark);
     border-radius: 0.2rem;
@@ -50,13 +50,13 @@
     flex-direction: column;
 
     width: 100%;
-    padding: 2em;
+    padding: 3rem;
 
     gap: 2rem;
 }
 .assignment div button{
     justify-self: center;
-    align-self: end;
+    align-self: center;
     width: fit-content;
     padding: 0.5em;
 
@@ -80,26 +80,26 @@
 
 .hoverimg{
     flex-direction: column;
+    height: 100vh;
+    max-width: 100vw;
 
-    height: fit-content;
-    max-width: fit-content;
-
-    border: 0.2rem solid var(--color-dark);
-    border-radius: 0.2rem;
-
-    background-color: var(--color-light);
-    padding: 2rem;
-
-    box-shadow: 5px 5px var(--color-dark);
+    background-color: rgb(224, 224, 224, 0.8);
+    backdrop-filter: blur( 0.5rem );
+    -webkit-backdrop-filter: blur( 0.5rem );
 
     position:fixed;
-    top: 9vh;
-    left: 30%;
+    left:0;
+    bottom: 0;
     z-index:10;
 }
 
 .hoverimg img{
-    height: 70vh;
+
+    justify-self: center;
+    align-self: center;
+    
+    max-height: 70vh;
+    width: fit-content;
     object-fit: contain;
 
     border: 0.2rem solid var(--color-dark);
@@ -111,10 +111,4 @@
     .assignment{
         padding: 5rem 1rem 5rem 1rem;
     }
-
-    .hoverimg{
-        width:100%;
-        left:0;
-    }
-    
 }
