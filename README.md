@@ -1,4 +1,6 @@
 # Landing page til 1-dags brogbyg
+**VIGTIGT:** Dette er kildekoden til en landingpage som skal deploys og gives til eleverne så de selv kan følge instruktionerne og bruge siden fremadrettet. Se evt. [oprindelig page hos akaLaws](https://akalaws.github.io/oneday-workshop/)
+
 Det er hensigten at siden kan bruges både som erstatning for en powerppoint men også som opgave hæfte og CTA til eleverne da siden er tilgængelig gennem pages.  
 Dette betyder også at eleverne faktisk kan gennemfører opgaverne fra mobilen i ekstreme tilfælde men som minimum bruge denne til at have overblik og praktisk informaton og skridt i opgaveløsningen
 
